@@ -209,6 +209,8 @@ header img {
         width: 261px;
         height: 340px;
         box-shadow: 10px -10px #EA5148;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .div23 label{
         font-size:0.9em;
