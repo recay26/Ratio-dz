@@ -162,7 +162,7 @@ header img {
     height:70px;
 
 }
-@media (max-width : 800px){
+@media (max-width : 800px) and (orientation: landscape){
     .div1{
         height: 80vh;
     }
@@ -241,7 +241,7 @@ header img {
 }
 
 
-    @media (min-width : 1700px) {
+    @media (min-width : 1800px) {
         .div1{
             height: 100vh;
         }
