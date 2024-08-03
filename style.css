@@ -162,7 +162,7 @@ header img {
     height:70px;
 
 }
-@media (max-width : 800px){
+@media (max-width : 767px){
     .div1{
         height: 80vh;
     }
@@ -183,14 +183,10 @@ header img {
         font-size: 1em;
     }
     .p2{
-        color: white;
-        font-weight: 600;
         font-size: 1.5em;
     }
     .p22{
-        font-weight: 600;
         font-size: 1.7em;
-        color: #a7a7a7;
     }
     .div21{
         position: absolute;
@@ -217,7 +213,6 @@ header img {
     }
     .btn1{
         width: 230px;
-        height: 30px;
     }
     .btn1 img {
         position: absolute;
@@ -243,7 +238,50 @@ header img {
 }
 
 
-    @media (min-width : 1800px) {
+@media (min-width : 768px) and (max-width : 1023px){
+    .divimg img {
+        width: 690px;
+    }
+    .divimg span {
+        left: 43%;
+    }
+    .div22 img {
+        width: 0px;
+    }
+    .div23{
+        width: 261px;
+        height: 340px;
+        box-shadow: 10px -10px #EA5148;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .div23 label{
+        font-size:0.9em;
+    }.btn1{
+        width: 230px;
+    }
+    .txt{
+        height:40px;
+    }
+    .p2{
+        font-size: 2em;
+    }
+    .p22{
+        font-size: 2em;
+    }
+}
+
+
+
+/*@media (min-width : 1024px) and (max-width : 1280px){
+
+}
+*/
+@media (min-width : 1281px) and (max-width : 1599px){
+
+}
+
+    @media (min-width : 1600px) {
         .div1{
             height: 100vh;
         }
