@@ -240,7 +240,7 @@ header img {
 
 @media (min-width : 768px) and (max-width : 1023px){
     .div1{
-        height: 150vh;
+        height: 130vh;
     }
     .divimg img {
         width: 690px;
@@ -274,10 +274,10 @@ header img {
         height:40px;
     }
     .p2{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
     .p22{
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 }
 
