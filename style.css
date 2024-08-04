@@ -239,11 +239,17 @@ header img {
 
 
 @media (min-width : 768px) and (max-width : 1023px){
+    .div1{
+        height: 150vh;
+    }
     .divimg img {
         width: 690px;
     }
     .divimg span {
         left: 43%;
+    }
+    .div2{
+        height: 150vh;
     }
     .div22 img {
         width: 0px;
