@@ -248,6 +248,10 @@ header img {
     .divimg span {
         left: 43%;
     }
+    .div21{
+        left: 6%;
+        top: 8%;
+    }
     .div2{
         height: 200vh;
     }
@@ -270,10 +274,10 @@ header img {
         height:40px;
     }
     .p2{
-        font-size: 2em;
+        font-size: 1.2em;
     }
     .p22{
-        font-size: 2em;
+        font-size: 1.4em;
     }
 }
 
