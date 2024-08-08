@@ -7,32 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ratio Algeria</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header style="background-color: #2f2f2f;">
-        <img  src="img/Fichier 6 1logo.png" >
+        <div data-aos="flip-up"><img  src="img/Fichier 6 1logo.png" ></div>
     </header>
 
     <!-- Debut de premier div -->
         <div class="div1">
             <div class="div11">
-                <div class="divimg"><img src="img/banner.png" >
+                <div class="divimg" data-aos="fade-down"><img src="img/banner.png" >
                 <span>Balancing <br>Business Brillaince</span></div>
             </div>
-            <div class="div111"><p class="p1">We are Ratio of course</p>
-                <p class="p11" id="id1">We work 100% remotly</p></div>
+            <div class="div111"><div data-aos="fade-right"><p class="p1">We are Ratio of course</p></div>
+                <div data-aos="fade-left"><p class="p11" id="id1">We work 100% remotly</p></div>
+            </div>
         </div>
     <!-- fin de premier div -->
 
     <!-- Debut de deuxieme div -->
     <div class="div2">
-        <div class="div21"><p class="p2">Do you want <br>to work with us ?</p><p class="p22">Get your quote now.</p></div>
-        <div class="div22"><img src="img/freepik-export-20240713001647Dsd8 1.png" "></div>
+        <div class="div21" data-aos="fade-right"><p class="p2">Do you want <br>to work with us ?</p><p class="p22">Get your quote now.</p></div>
+        <div class="div22" data-aos="fade-up"><img src="img/freepik-export-20240713001647Dsd8 1.png" "></div>
         <div class="div23">
-                <form>
+                <form >
                     <label>Name *</label>
                     <input  required maxlength="25" type="text" >
                     <label>Email *</label>
@@ -50,11 +52,22 @@
         </div>
     </div>
     <!-- fin de deuxieme div -->
-</div>
-</div>
+
+
+        <!-- Debut de troisieme div -->
+
+
+
+
+
+        <!-- Debut de troisieme div -->
 <footer style="position: relative;width: 100%;display: flex;justify-content: center;padding: 10px;background-color: #FAE5EF;">
-    <p>Ratio Algérie - All Rights Reserved</p>
+    <p>Ratio Algérie - All Rights Reserved - Coded By <a href="https://www.linkedin.com/in/okba-moulahoum-848769298/" target="_blank">Recay</a></p>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="index.js"></script>
 </body>
 </html>

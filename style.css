@@ -49,7 +49,7 @@ header img {
 .div111 {
     display: grid;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: center;
 }
 .div111 .p1 {
@@ -95,6 +95,10 @@ header img {
 .div22 img {
     width: 316px;
 }
+.div22 img:hover {
+    animation: vibrate 0.3s linear infinite;
+}
+
 .div23{
     width: 431px;
     height: 437px;
@@ -162,6 +166,21 @@ header img {
     height:70px;
 
 }
+footer p a{
+    font-weight: bold;
+    color: #EA5148;
+}
+
+
+@keyframes vibrate {
+    0% { transform: translate(0); }
+    25% { transform: translate(-4px, 4px); }
+    50% { transform: translate(4px, -4px); }
+    75% { transform: translate(-4px, -4px); }
+    100% { transform: translate(4px, 4px); }
+}
+
+
 @media (max-width : 767px){
     .div1{
         height: 80vh;
@@ -316,7 +335,7 @@ header img {
             font-size: 2.7em;
         }
         .div2{
-            height: 150vh;
+            height: 100vh;
         }
         .div22{
             left: 5%;
