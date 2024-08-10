@@ -1,13 +1,31 @@
-const textElement = document.getElementById("id1"); 
-const textArray = [ "We work 100% remotly","We Have clients from all over the world", "We have the best graphic designer", "We do print", "We have expert vidéo editors" , "We build prefect websites"]; // Replace with your desired text options
+const containerEl = document.querySelector('.p11')
 
-let currentTextIndex = 0;
+const careers = [
+    "work 100% remotely",
+    "have clients from all over the world",
+    "have the best graphic designers",
+    "do print",
+    "have expert video editors",
+    "build perfect websites"
+];
 
-function changeText() {
-  textElement.textContent = textArray[currentTextIndex];
-  currentTextIndex = (currentTextIndex + 1) % textArray.length; 
+let careerIndex = 0;
+let characterIndex = 0;
+
+function updateText() {
+    characterIndex++;
+
+    containerEl.innerHTML = `<p>We ${careers[careerIndex].slice(0, characterIndex)}</p>`;
+
+    if (characterIndex === careers[careerIndex].length) {
+        characterIndex = 0;
+        careerIndex++;
+        if (careerIndex === careers.length) {
+            careerIndex = 0;
+        }
+    }
+
+    setTimeout(updateText, 250);
 }
 
-setInterval(changeText, 2000); 
-
-
+updateText();
