@@ -210,17 +210,11 @@ footer p a{
 
 
 @media (max-width : 767px){
-    header {
-        height: 2.5rem;
-    }
-    header img {
-        width: 1rem;
-    }
     .div1{
         height: 75vh;
     }
     .divimg img {
-        width: 300px;
+        width: 320px;
         margin-top: 25%;
     }
     .divimg span {
@@ -231,6 +225,7 @@ footer p a{
     }
     .div111 .p1 {
         font-size: 1.8em;
+        margin-top: 10%;
     }
     .div111 .p11 {
         font-size: 1em;
